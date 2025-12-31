@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    text-align: center;
+}
+
+h3 {
+    color: navy;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.listOfRecepies {
+    font-size: larger;
+    padding-bottom: 20px;
+}
+
+.description {
+    display: flex;
+}
+
+.image {
+    width: 20%;
+    padding-right: 10px;
+    max-width: 200px;
+    height: 200px;
+}
+
+.text {
+    width: auto;
+}
+
+.backButton {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: navy;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 5px;
+}
